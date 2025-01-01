@@ -54,7 +54,7 @@ async def getinfo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 # Main function
 def main():
     # Replace 'YOUR_BOT_TOKEN' with your actual bot token
-    bot_token = "7382523020:AAEhW-1eDIi9bWQQW2M9lqXjriyjTZl6TkI"
+    bot_token = "YOUR_TOKEN"
 
     # Create the application
     application = ApplicationBuilder().token(bot_token).build()
